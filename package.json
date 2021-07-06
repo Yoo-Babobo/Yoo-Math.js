@@ -1,15 +1,25 @@
 {
-  "name": "yoo-math.js",
-  "version": "0.0.0",
-  "description": "The future of math.",
-  "main": "main.js",
+  "name": "@yoo-babobo/yoo-math.js",
+  "version": "0.1.0",
+  "description": "A simple math library that adds extra functions to your project.",
+  "main": "./lib/cjs/main.js",
+  "module": "./lib/esm/main.js",
+  "files": [
+    "lib/"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run tsc",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Yoo-Babobo/Yoo-Math.js.git"
   },
   "author": "Yoo-Babobo",
-  "license": "MIT"
+  "homepage": "https://www.math.yoo-babobo.com/js",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
