@@ -154,7 +154,7 @@ interface YooMath {
     };
 }
 /**
- * The future of math.
+ * A simple math library that adds extra functions to your project.
  */
 export declare const YooMath: YooMath;
 export {};
