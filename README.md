@@ -1,5 +1,5 @@
 # Yoo-Math.js
-A simple math library that adds extra functions to your project.
+A simple math library that adds extra and useful functions to your project.
 ## Install
 You can use NPM to install Yoo-Math.js.
 ```
@@ -15,7 +15,7 @@ Or you can load it from the browser:
 <!-- Minified version -->
 <script src="https://www.math.yoo-babobo.com/packages/Yoo-Math.min.js"></script>
 ```
-If you want to download Yoo-Math.js, then download it from [/lib/cjs/main.js](https://github.com/Yoo-Babobo/Yoo-Math.js/blob/main/lib/cjs/main.js) and name it what you want.
+If you want to download Yoo-Math.js, then download it from [/lib/cjs/YooMath.js](https://github.com/Yoo-Babobo/Yoo-Math.js/blob/main/lib/cjs/YooMath.js) and name it what you want.
 ## Usage
 Yoo-Math.js is easy to set up.
 ```html
