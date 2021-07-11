@@ -15,6 +15,8 @@ interface YooMath {
     readonly SQRT1_2: number,
     /** The square root of `2`. */
     readonly SQRT2: number,
+    /** Also known as `φ` (the Greek letter "phi"). The golden ratio, which people also call the golden proportion or golden section, is the calculation you obtain from two segment lengths with the same portion of their sum to the larger sum of two lengths. */
+    readonly GR: number,
     /**
      * Returns true if `x` is negative.
      * @param {number} x A numeric expression.
@@ -266,6 +268,7 @@ export const YooMath: YooMath = {
     PI: 3.1415926535897931,
     SQRT1_2: .7071067811865476,
     SQRT2: 1.4142135623730951,
+    GR: 1.618033988749895,
     isNegative(x) { return x < 0 ? true : false; },
     pow(x, y) { return x ** y; },
     sqed(x) { return this.pow(x, 2); },
